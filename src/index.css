@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+#main-body{
+    /* margin: 1rem 1rem; */
+    min-height:100vh;
+    padding: 1rem 1rem;
+}
+
+.min-h-250{
+    min-height: 250px;
+}
+
+.enlarge-on-hover-1:hover{
+    transform: scale(1.05);
+}
+
+.enlarge-on-hover-2:hover{
+    transform: scale(1.2);
+}
+
+.top-3-10{
+    top:30%;
+}
+
+.left-3-10{
+    left:30%;
+}
+
+.left-87-100{
+    left:87%;
+}
+
+.p-1-2{
+    padding: 0.1rem;
+}
+
+
+
+
+
